@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagem e Texto Lado a Lado</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 20px; /* espaço entre a imagem e o texto */
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .container img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="imagem.jpg" alt="Descrição da imagem">
+    <div class="text">
+      <h2>Título do Texto</h2>
+      <p>
+        Este é um parágrafo ao lado da imagem. Você pode adicionar qualquer conteúdo textual aqui.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
